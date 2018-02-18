@@ -1,0 +1,90 @@
+@import "variables.scss";
+/*Nav*/
+nav{
+	background-color: $light-blue;
+	.logo-navbar{
+	    max-width: 170px;
+	    margin-left: 10px;
+	    margin-top: 7px;
+	}
+}
+/*Header*/
+header {
+  background: 
+    linear-gradient(
+      rgba(103, 58, 183, .7),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/neonbrand-426918.jpg);
+  background-size: cover;
+  height: 80vh;
+  .title {
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  color: #ffffff;
+	  text-align: center;
+	  font-family: $handwrite;
+	}
+}
+/*general*/
+section{
+	padding: 30px 0px;
+	p{
+		text-align: justify;
+	}
+}
+.subtitle{
+	font-family: Roboto;
+	font-weight: 500;
+    text-transform: uppercase;
+    color: $secondary;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+.secondary-section{
+	padding: 40px;
+	background-color: #FFEB3B;
+}
+.text-padding{
+	padding: 20px;
+}
+/*Nosotros*/
+#nosotros{
+	background-color: #fafafa;
+}
+/*Ejes*/
+#ejes{	
+	.eje1{
+		@include eje("../img/art.jpg")
+	}
+	.eje2{
+		@include eje("../img/digital.jpg")
+	}
+	.eje3{
+		@include eje("../img/citizen.jpg")
+	}
+	.eje4{
+		@include eje("../img/research.jpg")
+	}
+	.eje-filter1{
+		@include eje-filter(rgba(255, 236, 5, 0.83));
+	}
+	.eje-filter2{
+		@include eje-filter(rgba(175, 246, 92, 0.62));
+	}
+	.eje-filter3{
+		@include eje-filter(rgba(0, 208, 255, .52));
+	}
+	.eje-filter4{
+		@include eje-filter(rgba(56, 62, 244, 0.4));
+	}
+	.name{
+		text-align: center;
+	    font-weight: 500;
+	    color: #ffffff;
+	    font-size: 30px;
+	    padding: 4%;
+	}
+}

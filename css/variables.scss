@@ -1,0 +1,20 @@
+/*Colors*/
+$light-blue:#005161;
+$secondary:#00b3ad;
+/*Fonts*/
+$handwrite:'Homemade Apple', cursive;
+/*Mixins*/
+@mixin eje ($url){
+	background-image: url($url);
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+	width: 200px;
+}
+@mixin eje-filter ($color){
+	height: 200px;
+	width: 200px;
+	background-color:$color;
+	text-align: center;
+	padding: 3%;
+}

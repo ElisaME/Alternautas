@@ -1,3 +1,107 @@
+/*Colors*/
+/*Fonts*/
+/*Mixins*/
+/*Nav*/
+nav {
+  background-color: #005161; }
+  nav .logo-navbar {
+    max-width: 170px;
+    margin-left: 10px;
+    margin-top: 7px; }
 
+/*Header*/
+header {
+  background: linear-gradient(rgba(103, 58, 183, 0.7), rgba(0, 0, 0, 0.5)), url(../img/neonbrand-426918.jpg);
+  background-size: cover;
+  height: 80vh; }
+  header .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-align: center;
+    font-family: "Homemade Apple", cursive; }
+
+/*general*/
+section {
+  padding: 30px 0px; }
+  section p {
+    text-align: justify; }
+
+.subtitle {
+  font-family: Roboto;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #00b3ad;
+  font-size: 30px;
+  letter-spacing: 3px; }
+
+.secondary-section {
+  padding: 40px;
+  background-color: #FFEB3B; }
+
+.text-padding {
+  padding: 20px; }
+
+/*Nosotros*/
+#nosotros {
+  background-color: #fafafa; }
+
+/*Ejes*/
+#ejes .eje1 {
+  background-image: url("../img/art.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 200px; }
+#ejes .eje2 {
+  background-image: url("../img/digital.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 200px; }
+#ejes .eje3 {
+  background-image: url("../img/citizen.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 200px; }
+#ejes .eje4 {
+  background-image: url("../img/research.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 200px; }
+#ejes .eje-filter1 {
+  height: 200px;
+  width: 200px;
+  background-color: rgba(255, 236, 5, 0.83);
+  text-align: center;
+  padding: 3%; }
+#ejes .eje-filter2 {
+  height: 200px;
+  width: 200px;
+  background-color: rgba(175, 246, 92, 0.62);
+  text-align: center;
+  padding: 3%; }
+#ejes .eje-filter3 {
+  height: 200px;
+  width: 200px;
+  background-color: rgba(0, 208, 255, 0.52);
+  text-align: center;
+  padding: 3%; }
+#ejes .eje-filter4 {
+  height: 200px;
+  width: 200px;
+  background-color: rgba(56, 62, 244, 0.4);
+  text-align: center;
+  padding: 3%; }
+#ejes .name {
+  text-align: center;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 30px;
+  padding: 4%; }
 
 /*# sourceMappingURL=main.css.map */
