@@ -88,3 +88,18 @@ section{
 	    padding: 4%;
 	}
 }
+#activities{
+	article {
+		-moz-column-width: 19em;
+		-webkit-column-width: 19em;
+		-moz-column-gap: 1em;
+		-webkit-column-gap: 1em; 	  
+	}
+	.fragment {
+		display: inline-block;
+		width:  100%; 
+	}
+	img{
+		width: 100%;
+	}
+}
